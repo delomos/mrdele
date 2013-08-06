@@ -1,0 +1,4 @@
+http://menacingcloud.com/?c=highPixelDensityDisplays
+http://css-tricks.com/snippets/css/retina-display-media-query/
+http://www.uifuel.com/hd-retina-display-media-queries/
+http://pugetworks.com/blog/2011/04/css-media-queries-for-targeting-different-mobile-devices/

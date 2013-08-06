@@ -1,0 +1,35 @@
+@media only screen and (min-width: 768px) and (max-width:959px) {
+.wrapper
+{
+	width:730px;
+
+}
+
+}
+
+/* ================= Mobile 480px - 767px ================= */
+
+@media screen and (max-width: 479px) {
+
+.wrapper
+{
+	width:280px;
+
+}
+
+
+/* ================= Mobile (Landscape) 480px - 767px ================= */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+.wrapper
+{
+	width:450px;
+
+}
+
+}
+
+
+
