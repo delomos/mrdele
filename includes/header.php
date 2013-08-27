@@ -28,7 +28,7 @@
             </div>
             </div>
         </div>
-        <div class="cart icon_cart">Cart<span>0</span></div>
+        <div class="cart icon_cart">Cart<span>0</span></div><span class="login_but">Login</span><span class="signup_but">Signup</span>
     </div>
     </div>
 </div>

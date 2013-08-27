@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <title>title</title>
-<title>title</title>
+
 <link rel="stylesheet/less"  href="css/styles.less" />
 <?php include_once("base.php"); ?>
 <script type="text/javascript" src="js/ddzSlider-1.01.min.js"></script>
@@ -24,7 +24,7 @@
             hottest spring break ever!</h2>
           <a href="" class="button floatLeft">Buy now !</a></div>
         <img src="images/slid.jpg"> </li>
-      <li><img src="images/1.jpg" width="100%"></li>
+      <li><img src="images/1.jpg" width="96%"></li>
     </ul>
     <div class="clear"></div>
   </div>
