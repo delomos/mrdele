@@ -73,3 +73,26 @@ function close_popup(){
 	$(".overlay").removeClass('show');
 /*	$(".overlay .popup").hide();*/
 	}
+	
+	var ulWidth = 0;
+$(".product_suggest ul li").each(function() {
+    ulWidth = ulWidth + $(this).outerWidth(true)+1;
+
+});
+$(".product_suggest ul").width(ulWidth);
+
+
+
+
+
+     var element = $('.product_suggest .grid_gallery').jScrollPane();
+     var api = element.data('jsp');
+     element.bind(
+          'mousewheel',
+          function (event, delta, deltaX, deltaY)
+          {
+              api.scrollByX(delta * 60);
+              return false;
+          }
+     );
+
