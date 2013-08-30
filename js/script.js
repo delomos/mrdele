@@ -1,17 +1,6 @@
 // JavaScript Document
 
-$(document).ready(function ()
-                  {
 
-	window.ddzSlider = $('.home_slider').ddzSlider({animSpeed:800,easing:"swing",speed:10});
-	window.ddzSlider = $('.grid_gall_1').ddzSlider({animSpeed:800,easing:"linear",next:"#slider2Next_1",prev:"#slider2Back_1", speed:7, auto:false});
-		window.ddzSlider = $('.grid_gall_2').ddzSlider({animSpeed:800,easing:"linear",next:"#slider2Next_2",prev:"#slider2Back_2", speed:7, auto:false});
-			window.ddzSlider = $('.grid_gall_3').ddzSlider({animSpeed:800,easing:"linear",next:"#slider2Next_3",prev:"#slider2Back_3", speed:7, auto:false});
-
-
-
-	 
-});
 
 $(".return_confirmation").addClass("hide");
 $(".order_track td.status .big_button").click(function(){
@@ -74,18 +63,14 @@ function close_popup(){
 /*	$(".overlay .popup").hide();*/
 	}
 	
+$('.fav_list').each(function(ele,val){
 	var ulWidth = 0;
-$(".product_suggest ul li").each(function() {
+$(val).find("ul li").each(function() {
     ulWidth = ulWidth + $(this).outerWidth(true)+1;
 
 });
-$(".product_suggest ul").width(ulWidth);
-
-
-
-
-
-     var element = $('.product_suggest .grid_gallery').jScrollPane();
+$(val).find("ul").width(ulWidth);
+ var element = $(val).find('.grid_gallery').jScrollPane();
      var api = element.data('jsp');
      element.bind(
           'mousewheel',
@@ -95,4 +80,43 @@ $(".product_suggest ul").width(ulWidth);
               return false;
           }
      );
+	
+	});	
+	
+$('.product_suggest').each(function(ele,val){
+	var ulWidth = 0;
+$(val).find("ul li").each(function() {
+    ulWidth = ulWidth + $(this).outerWidth(true)+1;
 
+});
+$(val).find("ul").width(ulWidth);
+ var element = $(val).find('.grid_gallery').jScrollPane();
+     var api = element.data('jsp');
+     element.bind(
+          'mousewheel',
+          function (event, delta, deltaX, deltaY)
+          {
+              api.scrollByX(delta * 60);
+              return false;
+          }
+     );
+	
+	});		
+	
+	/*var ulWidth = 0;
+$(".product_suggest ul li,.fav_list ul li").each(function() {
+    ulWidth = ulWidth + $(this).outerWidth(true)+1;
+
+});
+$(".product_suggest ul,.fav_list ul").width(ulWidth);
+ var element = $('.product_suggest .grid_gallery,.fav_list .grid_gallery').jScrollPane();
+     var api = element.data('jsp');
+     element.bind(
+          'mousewheel',
+          function (event, delta, deltaX, deltaY)
+          {
+              api.scrollByX(delta * 60);
+              return false;
+          }
+     );
+*/

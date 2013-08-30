@@ -518,6 +518,7 @@ background:#c6c6c6;
  .transition(background 0.5s ease 0s);
 	cursor: pointer;
 	position: relative;
+	text-decoration: none !important;
  &.red {
  background:#BD494B;
  &:hover {
@@ -529,7 +530,7 @@ background:#BD494B
 }
  &.grey {
  background:#c6c6c6;
- color:#fff;
+ color:#fff !important;
  text-shadow:0px 1px 0px #999;
  .bshadow(0 2px 0.2px #777);
  &:hover {
@@ -1311,7 +1312,7 @@ color:@grey
 	width: 100%;
 }
 .grid_image_overlay .select_favourite .heart_block {
-	padding: 0;
+	padding: 0 ;
 	width: 35px;
 	height: 35px;
 	line-height: 35px;
@@ -1324,12 +1325,15 @@ color:@grey
  background:#BD2123
 }
 }
-.grid_image_overlay .heart_block .icon_heart {
+.grid_image_overlay .heart_block a {
 	color: #fff;
 	line-height: 2.2;
 	text-decoration: none;
 	cursor: pointer;
-	font-size: 18px
+	font-size: 18px;
+ &.icon_cross {
+ font-size:16px
+}
 }
 /* line 414, ../sass/app.scss */
 .grid_gallery .grid_box h4 {
@@ -2764,27 +2768,27 @@ big {
 }
 }
 .product_suggest {
-	position:relative;
-.shadowonright{
-	position:absolute;
-	width:31px; height:100%;
-	z-index:11;
-	background:url(../images/shade.png) no-repeat center;
-	right:0;top:0;}
-	.grid_gallery {
-
-	overflow:auto;	
-	overflow-y:hidden
-	}}
-	.product_suggest{
-		overflow:hidden;}
+	position: relative;
+.shadowonright {
+ position:absolute;
+ width:31px;
+height:100%;
+ z-index:11;
+ background:url(../images/shade.png) no-repeat center;
+ right:0;
+top:0;
+}
+.grid_gallery {
+	overflow: auto;
+	overflow-y: hidden
+}
+}
+.product_suggest {
+	overflow: hidden;
+}
 .product_suggest ul {
 	padding: 0 1px;
-	
-
-	overflow:hidden;
-
-
+	overflow: hidden;
  li {
  overflow:hidden;
  float:left;
@@ -2817,10 +2821,167 @@ padding-bottom:0px;
  &:last-child {
  margin-right:0 !important;
 }
-} 
 }
+}
+.edit_favourites {
+ a.link {
+ color:#BD4749
+}
+.big_button {
+	display: block;
+	width: 160px;
+}
+.favlist_row {
+ .border-dashed-bottom;
+	padding: 10px 0;
+	overflow: hidden;
+ .grid_gallery {
+ overflow:auto;
+ overflow-y:hidden;
+ float:right;
+ width:63%;
+ 
+ ul {
+padding: 0 1px;
+ overflow:hidden;
+ height:260px;
+  li {
+ overflow:hidden;
+ float:left;
+ width:180px;
+margin:12px ;
+margin-top:0 ;
+ .grid_box {
+width: auto;
+ height:auto;
+padding-bottom:0px;
+box-shadow:none;
+strong {
+ text-decoration:line-through
+}
+ > span {
+ text-decoration:underline;
+ border:none;
 
+ .font_twelve;
+ padding:5px;
+ margin-top:5px;
+}
+ h4 {
+ margin:0;
+ font-weight:normal;
+ color:#333;
+ .font_twelve;
 
+ padding:10px 5px 0;
+
+}
+}
+ &:first-child {
+ margin-left:0 !important;
+}
+ &:last-child {
+ margin-right:0 !important;
+}
+}
+}
+}
+}
+.profile_pic {
+	float: left;
+	margin-right: 25px;
+}
+.edit_fav_block {
+	padding: 25px;
+ background:@white;
+	overflow: hidden;
+	margin-top: 25px;
+	margin-bottom: 25px;
+ h2, h3 {
+ float:left;
+ margin:0;
+ font-weight:normal;
+ color:@black;
+ font-size:18px;
+ line-height:20px;
+ margin-bottom:15px;
+}
+h3 {
+	float: none
+}
+span {
+ .font_forteen;
+ color:@grey;
+	margin: 20px 0
+}
+.floatLeft {
+span {
+ display:block;
+}
+.big_button {
+	margin: 15px 0
+}
+strong {
+	display: block;
+	font-weight: normal;
+	color: #666;
+	margin: 20px 0;
+ .font_forteen;
+}
+}
+}
+.favlist_head .edit_fav_block {
+	margin-bottom: 20px;
+ .socials {
+ float:right;
+ margin-top:20px;
+}
+.floatLeft {
+ .big_button {
+ margin-top:10px;
+}
+a.link {
+	display: block;
+	color: #BD4749;
+ .font_forteen;
+	text-decoration: underline
+}
+}
+}
+label.section_label {
+	background: #A64042;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	font-size: 19px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px 14px;
+}
+}
+.socials li {
+	float: left;
+	margin-left: 6px;
+ a {
+ display:inline-block;
+ width:25px;
+ height:25px;
+ cursor:pointer;
+ background:url(../images/socials.png) no-repeat top
+}
+ &.fb a {
+ background-position:left center
+}
+ &.tw a {
+ background-position:-32px center
+}
+ &.li a {
+ background-position:right center
+}
+ &:hover {
+ opacity:0.8
+}
+}
 /*-------------------------------------------------------------------------
 @BROWSER FIXES
 -------------------------------------------------------------------------*/
@@ -2897,9 +3058,10 @@ form.step_payment_method .column_50.bill_address {
  margin-right:0 !important;
 }
 }
-.single_product .product_detail_left,.single_product .product_detail_right{
-	width:100%;
-	float:none}
+.single_product .product_detail_left, .single_product .product_detail_right {
+	width: 100%;
+	float: none
+}
 }
 		
 /*@media only screen and (max-width: 767px) and (orientation: portrait) {

@@ -65,7 +65,8 @@
         </div>
       </div>
       <div class="clear"></div>
-      <div class="product_suggest"><div class="shadowonright"></div>
+      <div class="product_suggest">
+        <div class="shadowonright"></div>
         <h5>You might also like</h5>
         <div class="grid_gallery">
           <ul>
@@ -107,7 +108,8 @@
                 <div class="clear"></div>
                 <label class="price">$34.90</label>
                 <strong>Was: 38:43</strong> </div>
-            </li><li>
+            </li>
+            <li>
               <div class="grid_box">
                 <div class="grid_image">
                   <div class="grid_image_overlay"><a class="icon_share"></a>
@@ -119,7 +121,8 @@
                 <div class="clear"></div>
                 <label class="price">$34.90</label>
                 <strong>Was: 38:43</strong> </div>
-            </li><li>
+            </li>
+            <li>
               <div class="grid_box">
                 <div class="grid_image">
                   <div class="grid_image_overlay"><a class="icon_share"></a>
@@ -141,9 +144,8 @@
 </div>
 <?php include_once("includes/footer.php"); ?>
 <link rel="stylesheet" type="text/css"  href="css/jquery.jscrollpane.css" />
-
-   <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>      <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+ <script type="text/javascript" src="js/jquery.mousewheel.js"></script> 
 <script type="text/javascript" src="js/script.js"></script>
-
 </body>
 </html>

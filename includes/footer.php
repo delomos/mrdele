@@ -50,7 +50,7 @@
         <a href="" class="big_button icon_tw tw_blue">Login with twitter</a> </div>
       </form>
     </div>
-    <div class="popup_wrap signup_pop"> <a href="" class="icon_cross close_popup"></a>
+    <div class="popup_wrap signup_pop"> <a href="#;" class="icon_cross close_popup"></a>
       <h3>Welcome to Geleyi</h3>
       <h6>Create your Account to discover beautiful african fashion</h6>
       <form>

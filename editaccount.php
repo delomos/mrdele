@@ -52,7 +52,7 @@
           <label>Personal Blog<span class="icon_pencil square_icon"></span></label>
           <div class="input_group">
             <input type="text" placeholder="-User name-" value="Maher.jilani">
-           <em> www.example.com</em> <span class="success error_box"></span>
+            <em> www.example.com</em> <span class="success error_box"></span>
             <input type="submit" value="Save Change" class="big_button red">
           </div>
         </div>
@@ -85,56 +85,41 @@
         </div>
         <div class="input_group">
           <input type="text" placeholder="-First name-">
-          <span class="success error_box">success</span>
-        
-        </div>
+          <span class="success error_box">success</span> </div>
         <div class="input_group">
           <input type="text" placeholder="-Last name-">
-          <span class="success error_box"></span>
-       
-        </div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-Address line 1-">
-          <span class="success error_box"></span>
-       
-        </div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-Address 2-">
-          <span class="success error_box"></span>
-       
-        </div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
-     <div class="custom_dropdown">-Country-</div>
-          <span class="success error_box"></span>
-       
-        </div>
+          <div class="custom_dropdown">-Country-</div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-City-">
-          <span class="success error_box"></span>
-       
-        </div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-State/Province-">
-          <span class="success error_box"></span>
-       
-        </div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
-        <div class="custom_dropdown">-Zip/Postal Code-</div>
-          <span class="success error_box"></span>
-       
-        </div>
+          <div class="custom_dropdown">-Zip/Postal Code-</div>
+          <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-Telephone Number (10 digits only, no dashes)-">
-          <span class="success error_box"></span>
-        </div>
+          <span class="success error_box"></span> </div>
         <div class="input_group_wrap address_select margin-top-twenty">
           <div class="input_group">
             <div class="custom_dropdown">-Address Name-</div>
           </div>
         </div>
-         <div class="input_group_wrap button_group"> 
-        <input type="submit" value="Save Change" class="big_button red margin-right-ten">
-        <input type="button" value="Cancel" class="big_button grey"><input type="button" value="Deactivate account" class="big_button dgrey floatRight"></div>
+        <div class="input_group_wrap button_group">
+          <input type="submit" value="Save Change" class="big_button red margin-right-ten">
+          <input type="button" value="Cancel" class="big_button grey">
+          <input type="button" value="Deactivate account" class="big_button dgrey floatRight">
+        </div>
       </div>
     </form>
   </div>

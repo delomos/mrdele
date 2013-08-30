@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <title>title</title>
-
 <link rel="stylesheet/less"  href="css/styles.less" />
 <?php include_once("base.php"); ?>
 <script type="text/javascript" src="js/ddzSlider-1.01.min.js"></script>
@@ -291,6 +290,13 @@
   </div>
 </div>
 <?php include_once("includes/footer.php"); ?>
+<script>$(document).ready(function ()
+                  {
+window.ddzSlider = $('.home_slider').ddzSlider({animSpeed:800,easing:"swing",speed:10});
+	window.ddzSlider = $('.grid_gall_1').ddzSlider({animSpeed:800,easing:"linear",next:"#slider2Next_1",prev:"#slider2Back_1", speed:7, auto:false});
+		window.ddzSlider = $('.grid_gall_2').ddzSlider({animSpeed:800,easing:"linear",next:"#slider2Next_2",prev:"#slider2Back_2", speed:7, auto:false});
+			window.ddzSlider = $('.grid_gall_3').ddzSlider({animSpeed:800,easing:"linear",next:"#slider2Next_3",prev:"#slider2Back_3", speed:7, auto:false});
+});</script> 
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
