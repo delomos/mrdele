@@ -296,13 +296,13 @@ body {
  float:left;
  display:inline-block;
  .rounded-corners(4px);
- padding:7px 4px;
- .font_twelve;
+ padding:5px 0px;
+ font-size:10px;
 .bold;
 .Textcenter;
  text-transform:uppercase;
  color:@white;
- width:125px
+ width:110px
 }
 }
 #header {
@@ -313,11 +313,12 @@ body {
 }
 #right_part_header {
 	float: right;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 .logo {
 	float: left;
-	margin: 12px 0
+	margin: 12px 0;
+	height:28px;
 }
 .container {
  max-width: @width-screen;
@@ -727,16 +728,17 @@ list-style:none;
  margin:10px 0;
  a {
  display:inline-block;
- padding:2px 30px;
+ padding:2px 1.8em;
  text-transform:uppercase;
  border-right:1px dotted @grey;
- font-size:20px;
+ font-size:1.2em;
  color:@black;
  &:hover {
  background:@lgrey;
  text-decoration:none;
 }
 }
+
 }
 }
 form {
@@ -748,7 +750,7 @@ form {
 a.icon_search {
 	position: absolute;
 	right: 0;
-	height: 40px;
+	height: 38px;
  box-shadow:0px -1px 0px @grey inset;
 	width: 40px;
  background:@lgrey;
@@ -781,19 +783,21 @@ a.icon_search:before {
 #topbar .topbar_offer {
  color:@white;
 	font-weight: normal;
-.font_forteen;
+	font-size:11px;
 	padding: 0 15px;
-	margin: 0 15px;
-	line-height: 27px;
+	
+	line-height: 22px;
 	display: inline-block
 }
 #topbar .close_button {
 	display: block;
  background:@white;
 	padding: 4px 5px;
-	margin: 5px 0;
+	line-height:50%;
+	margin:2px 0;
+	
 	margin-bottom: 0;
-	font-size: 13px;
+	font-size: 11px;
 	float: right;
  color:@grey
 }
@@ -805,15 +809,15 @@ a.icon_search:before {
  float:right;
  color:@black;
  line-height:25px;
- font-size:15px;
-letter-spacing:0.8px;
+ .font_forteen;
+letter-spacing:0.7px;
  span {
  display:block;
  float:left;
  border-right:1px solid @lgrey;
  padding:0 10px;
  margin:0 18px;
- font-size:22px;
+ font-size:18px;
  margin-left:0;
  padding-left:0
 }
@@ -821,7 +825,8 @@ letter-spacing:0.8px;
 }
 .dropdowns_header {
 	float: left;
-	margin: 8px 0
+	margin:5px 0;
+	
 }
 .dropdown_trigger {
 	float: left;
@@ -831,7 +836,7 @@ letter-spacing:0.8px;
 	position: relative;
  > label {
  color:#777;
- font-size:14px;
+ font-size:13px;
 }
 .drop_image {
 	float: left;
@@ -853,17 +858,19 @@ label {
 }
 .cart {
 	float: left;
-	margin: 5px 0;
+
+
 	margin-left: 20px;
  border:1px solid @lgrey;
-	padding: 4px 5px;
+	padding: 6px 5px;
  .font_forteen;
-	padding-left: 47px;
+	padding-left: 2.5em;
 	line-height: 28px;
 	position: relative;
+	
  span {
  float:right;
- .rounded-corners(20px);
+ .rounded-corners(50%);
  width:27px;
  height:27px;
  text-align:center;
@@ -871,14 +878,14 @@ label {
  color:@white;
  .font_twelve;
  line-height:27px;
- margin-left:5px;
+ margin-left:10px;
 }
  &:before {
  position:absolute;
- font-size:18px;
+ font-size:16px;
  left:10px;
  color:@black;
- top:8px;
+ top:10px;
 }
 }
 /* line 157, ../sass/app.scss */
@@ -902,7 +909,7 @@ label {
 	box-shadow: 0px 1px 1px #c8c8c8;
 	right: 12px;
 	font-size: 12px;
-	top: 30px;
+	top: 29px;
 	z-index: 10000;
 	background: #fff;
 }
@@ -938,7 +945,7 @@ label {
 /* line 200, ../sass/app.scss */
 
 .your_fav .icon_emptyheart {
-	font-size: 19px;
+	font-size: 18px;
 	margin-top: 5px;
 }
 .your_fav, .user_ac, .notific {
@@ -1153,7 +1160,7 @@ input[type="text"]:focus {
 	margin-bottom: 0
 }
 #client_slider .container {
-	margin: 20px auto;
+	margin: 20px auto 0;
 	overflow: hidden;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -1165,7 +1172,7 @@ input[type="text"]:focus {
 	display: block;
 	font-size: 1em;
 	margin-bottom: 5px;
-	padding: 7px 8px;
+	padding: 3px 7px;
 	text-align: left;
 }
 #client_slider .floatLeft {
@@ -1188,20 +1195,20 @@ input[type="text"]:focus {
 }
 #client_slider .control {
 	position: absolute;
-	top: 18%;
-	width: 100%;
+	top: 30%;
+	width: 94%;
 }
 #client_slider .control a {
-	border-radius: 30px;
-	width: 30px;
-	height: 30px;
+	border-radius: 50%;
+	width: 27px;
+	height: 27px;
 	display: block;
 	text-align: center;
  border: 1px solid @grey;
 	color: #aaa;
-	line-height: 28px;
-	font-size: 22px;
-	line-height: 33px;
+	line-height: 30px;
+	font-size: 20px;
+	
 &:hover {
  background:@lgrey
 }
@@ -1220,21 +1227,22 @@ input[type="text"]:focus {
 /* line 383, ../sass/app.scss */
 #client_slider ul {
 	float: left;
-	margin: 0;
+	padding: 0 1.5em;
 	position: relative;
-	margin-left: 1em;
-	width: 73%;
+
+	overflow:hidden;
+	width: 83%;
 }
 /* line 389, ../sass/app.scss */
 #client_slider ul li {
 	float: left;
 	list-style: none;
-	padding: 15px 37px;
+	padding: 8px 2.5em;
 	text-align: center;
 }
 /* line 394, ../sass/app.scss */
 #client_slider ul li img {
-	height: 38px;
+	height: 40px;
 }
 .grid_gallery {
 	position: relative;
@@ -1436,14 +1444,19 @@ form {
 input[type="submit"] {
 	position: absolute;
 	right: 0;
+	top:0;
 }
 }
 }
+#footer {
+	padding-top:40px;
+	h4{
+		font-size:13px}}
 #footer .columns ul li {
  border-bottom:1px solid @grey;
  a {
  line-height:35px;
- .font_forteen;
+ font-size:13px;
 display:block;
  padding-left:5px;
 color:@black;
@@ -2991,36 +3004,91 @@ label.section_label {
 @media only screen and (min-width: 768px) {
 }
  @media only screen and (max-width: 767px) {
-#topbar {
-	display: none
-}
+
 .container {
-	padding: 0 20px;
+	padding: 0 10px;
 	max-width: 62.5em;
 }
+.grid_gallery_wrap.container{padding: 25px 10px;}
 #navigation_search form input[type="text"] {
 	display: none
 }
+.dropdown_trigger{
+	padding:0 5px;
+	.drop_image{
+		margin-right:4px}
+		 .dropdown {
+			 right:5px}
+		> span{
+			margin-left:2px;
+			}}
+		.logo{
+			height:25px;
+			margin-top:15px;}
+			.dropdown_trigger.user_ac .drop_image img{
+				height:25px}
+.dropdown_trigger > label {
+	font-size:10px;}
+	#right_part_header .cart{
+	
+		margin-left:5px;
+		padding-left:2.5em;
+		font-size:12px;
+		padding-bottom:5px;
+		span{
+			font-size:11px;
+			height:100%;
+			width:27px;}}
 #navigation_search #nav li a {
-	padding: 2px 50px
+	padding: 2px 1.5em;
+	font-size:1.1em;
 }
 .ddzSlider .sliderView {
-	width: auto
+	width: 100%
 }
-.grid_gallery {
+.home_slider li h1 {
+	line-height:35px;
+	margin-top:15px;
+	font-size:1.75em}
+	.home_slider li h2 {font-size: 1.2em;
+	line-height:25px}
+	.home_slider li img {
+		height:250px;
+		margin-right:22px}
+		.home_slider{
+			height:260px}
+.featured_items .grid_gallery,
+.recently_home .grid_gallery,
+.trending_items .grid_gallery{
 	content: " ";
 	display: table;
-	width: 705px;
-	padding: 0 20px;
+	width: 578px;
+padding: 0 35px;
+	margin:0 auto;
+	ul{
+		height:390px}
+	.grid_box{	width: 47.8%;
+	height:auto;
+	padding-bottom:10px;
+	 h4{
+		font-size:12px;
+		padding: 5px 18px;}}
 }
-.grid_gallery ul .grid_box {
-	width: 46.7%
+
+.featured_items .grid_gallery li.sliderView.current .grid_box:nth-child(2),
+.recently_home .grid_gallery li.sliderView.current .grid_box:nth-child(2),
+.trending_items .grid_gallery li.sliderView.current .grid_box:nth-child(2){
+	margin-right:0}
+.container.grid_gallery_wrap.featured_items,
+.container.grid_gallery_wrap.trending_items {
+padding: 35px 10px;
+overflow: hidden;
 }
-.container.grid_gallery_wrap {
-	padding: 35px 20px
-}
-.grid_gallery .ddzSliderNav {
-	width: 92%;
+.featured_items .grid_gallery .ddzSliderNav,
+.recently_home .grid_gallery .ddzSliderNav,
+.trending_items .grid_gallery .ddzSliderNav {
+width: 88%;
+left: 2%;
 }
 .grid_gallery .ddzSliderNav .left_arrow {
 	margin-left: -0.5em
@@ -3034,8 +3102,30 @@ label.section_label {
 	width: 27%
 }
 #client_slider .clients_wrap {
-	height: 100px;
+	height: 80px;
+	padding-left:10px;
+	padding-right:10px
 }
+#client_slider .floatLeft {
+	margin-right:5px;
+	width:110px;
+	label{
+		font-size:0.8em}}
+		#client_slider ul{
+			width: 74%;
+			padding:0 1.5em;
+			height:50px}
+			#client_slider .control {
+				width:87%;
+				a{
+					font-size:16px;
+					height:20px;
+					width:20px;
+					line-height:24px}}
+#client_slider ul li {
+	padding:8px 0.5em;
+	img{
+		height:35px;}}
 .columns.column_30.last {
 	width: 33%
 }
@@ -3062,11 +3152,15 @@ form.step_payment_method .column_50.bill_address {
 	width: 100%;
 	float: none
 }
+#footer .connect_socials a {
+width: 72px;}
+
 }
 		
-/*@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	
    
-}*/
+}
 
 @media only screen and (max-width: 480px) {
 .container {

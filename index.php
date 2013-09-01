@@ -23,7 +23,14 @@
             hottest spring break ever!</h2>
           <a href="" class="button floatLeft">Buy now !</a></div>
         <img src="images/slid.jpg"> </li>
-      <li><img src="images/1.jpg" width="96%"></li>
+      <li>
+        <div class="floatLeft">
+          <h1>Let's just make sure<br>
+            that you would look "<span>Hot</span>"</h1>
+          <h2>Make sure you are ready for the<br>
+            hottest spring break ever!</h2>
+          <a href="" class="button floatLeft">Buy now !</a></div>
+        <img src="images/slid.jpg"> </li>
     </ul>
     <div class="clear"></div>
   </div>
