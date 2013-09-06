@@ -33,7 +33,7 @@
       <div class="container">
         <label class="section_label">Maher Jilani Favourites</label>
         <div class="clear"></div>
-        <div class="edit_fav_block fav_list">
+        <div class="edit_fav_block fav_list"><img class="shadowonright" src="images/shade.png">
           <div class="floatLeft">
             <h3>Blue Tshirts</h3>
             <span>Created by <a href="" class="link">Maher Jilani</a></span> <a href="" class="big_button red">Delete List</a> <span>Last modified on 22, March 2013</span> <strong>33 Items</strong> <img src="images/likebuttons.png"> </div>
@@ -103,7 +103,7 @@
       <div class="container">
     
         <div class="clear"></div>
-        <div class="edit_fav_block fav_list">
+        <div class="edit_fav_block fav_list"><img class="shadowonright" src="images/shade.png">
           <div class="floatLeft">
             <h3>Blue Tshirts</h3>
             <span>Created by <a href="" class="link">Maher Jilani</a></span> <a href="" class="big_button red">Delete List</a> <span>Last modified on 22, March 2013</span> <strong>33 Items</strong> <img src="images/likebuttons.png"> </div>

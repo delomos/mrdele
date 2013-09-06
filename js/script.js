@@ -120,3 +120,7 @@ $(".product_suggest ul,.fav_list ul").width(ulWidth);
           }
      );
 */
+function close_topbar(){
+	$("#topbar").slideUp('slow');
+
+	}

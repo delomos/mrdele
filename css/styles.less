@@ -309,8 +309,10 @@ body {
  background:@white;
 	height: 110px;
 	padding: 15px 0;
- border-bottom:4px solid @lgrey
+ border-bottom:4px solid @lgrey;
 }
+#header,#topbar,.home_slider{.container{
+	max-width:97% !important}}
 #right_part_header {
 	float: right;
 	margin: 10px 0;
@@ -496,7 +498,7 @@ background:#B2B2B2;
  &:hover {
  text-decoration:none;
  color:#fff;
- background:#49BDC7
+ background:#07809C
 }
  &:active {
  top:1px;
@@ -525,7 +527,7 @@ background:#c6c6c6;
  &.red {
  background:#BD494B;
  &:hover {
-background:#BD3033
+background:#9C2F33
 }
  &:active {
 background:#BD494B
@@ -537,7 +539,7 @@ background:#BD494B
  text-shadow:0px 1px 0px #999;
  .bshadow(0 2px 0.2px #777);
  &:hover {
- background:#bababa
+ background:#878787
 }
 }
  &.dgrey {
@@ -839,6 +841,7 @@ letter-spacing:0.7px;
  > label {
  color:#777;
  font-size:13px;
+ float:left;
 }
 .drop_image {
 	float: left;
@@ -2598,7 +2601,7 @@ text-align:center;
 form {
 	float: right;
 	width: 70%;
-	padding: 6% 5%;
+	padding: 3% 5%;
  input[type="text"], input[type="password"] {
  width:100%
 }
@@ -2715,7 +2718,8 @@ ul li {
  border-top:1px dashed @grey;
  border-bottom:1px dashed @grey;
 	margin: 25px 0;
-	padding: 10px 0
+	padding: 10px 0;
+	overflow:hidden
 }
 .dropdown_trigger {
 	border: none;
@@ -2912,8 +2916,19 @@ strong {
 	padding: 25px;
  background:@white;
 	overflow: hidden;
+	position:relative;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	img.shadowonright{
+	
+   
+    height: 100%;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    width: 16px;
+    z-index: 11;
+}
  h2, h3 {
  float:left;
  margin:0;

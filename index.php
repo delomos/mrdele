@@ -56,15 +56,15 @@
   <label>Featured Items</label>
   <div class="clear"></div>
   <div class=" grid_gallery clearfix grid_gall_1">
-    <div class="ddzSliderNav">
+    <!--<div class="ddzSliderNav">
       <div class="sliderNavText"> <a href="#;" id="slider2Back_1" class="left_arrow icon_bigarrow_left"> </a> <a href="#;" id="slider2Next_1"  class="right_arrow icon_bigarrow_right"> </a> </div>
-      <span class="current"></span></div>
+      <span class="current"></span></div>-->
     <ul>
       <li>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -74,8 +74,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -85,8 +85,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -98,8 +98,8 @@
       <li>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -109,8 +109,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -120,8 +120,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -138,15 +138,15 @@
   <label>Recently added Items </label>
   <div class="clear"></div>
   <div class=" grid_gallery clearfix grid_gall_2">
-    <div class="ddzSliderNav">
+    <!--<div class="ddzSliderNav">
       <div class="sliderNavText"> <a href="#;" id="slider2Back_2" class="left_arrow icon_bigarrow_left"> </a> <a href="#;" id="slider2Next_2"  class="right_arrow icon_bigarrow_right"> </a> </div>
-      <span class="current"></span></div>
+      <span class="current"></span></div>-->
     <ul>
       <li>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -156,8 +156,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -167,8 +167,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -180,8 +180,8 @@
       <li>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -191,8 +191,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -202,8 +202,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -219,15 +219,15 @@
   <label>Trending Items</label>
   <div class="clear"></div>
   <div class=" grid_gallery clearfix grid_gall_3">
-    <div class="ddzSliderNav">
+   <!-- <div class="ddzSliderNav">
       <div class="sliderNavText"> <a href="#;" id="slider2Back_3" class="left_arrow icon_bigarrow_left"> </a> <a href="#;" id="slider2Next_3"  class="right_arrow icon_bigarrow_right"> </a> </div>
-      <span class="current"></span></div>
+      <span class="current"></span></div>-->
     <ul>
       <li>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -237,8 +237,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -248,8 +248,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -261,8 +261,8 @@
       <li>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -272,8 +272,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
@@ -283,8 +283,8 @@
           <strong>Was: 38:43</strong> </div>
         <div class="grid_box">
           <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
             </div>
             <img src="images/11.jpg"></div>
           <h4>The Product title Knit Mittens</h4>
