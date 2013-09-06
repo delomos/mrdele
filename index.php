@@ -8,7 +8,7 @@
 <?php include_once("base.php"); ?>
 <script type="text/javascript" src="js/ddzSlider-1.01.min.js"></script>
 </head>
-<body>
+<body id="home">
 <?php include_once("includes/topbar.php"); ?>
 <?php include_once("includes/header.php"); ?>
 <div class="home_slider">
