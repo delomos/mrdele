@@ -46,8 +46,15 @@
         </table>
         <div class="select_shipping_box">
           <h3 class="icon_truck">Ships to:</h3>
-          <div class="custom_dropdown"></div>
-          <a href="#;">+ Add a new shipping address</a>
+          <span class="custom-dropdown">
+          <select class="custom-dropdown__select">
+            <option>Some option</option>
+            <option>Some option</option>
+            <option>PSome option</option>
+            <option>Some option</option>
+            <option>Some option</option>
+          </select>
+          </span> <a href="#;">+ Add a new shipping address</a>
           <div class="order_box"> <strong>$20.00</strong>
             <label>
               <input type="checkbox">

@@ -124,3 +124,24 @@ function close_topbar(){
 	$("#topbar").slideUp('slow');
 
 	}
+	
+	$(".grid_image_overlay .heart_block").click(function(){
+	$(this).find(".icon_emptyheart").hide();
+$(this).parent(".select_favourite").addClass("favlist_expanded");
+
+});
+$(".dropdown_trigger.your_fav .dropdown").hide();
+$(".heart_block .create_fav.trigger_parent .trigger_child ").hide();
+$(".dropdown_trigger.your_fav >strong").click(function(){
+	$(this).parent().find(".dropdown").slideToggle();
+	$(this).parents(".favlist_expanded").toggleClass("movedup");
+	});
+	
+	$(".create_fav.trigger_parent").click(function(){
+		$(this).parent().find(".trigger_child").show();
+		$(this).find("label").find('.icon_cross').remove();
+		$(this).find("label").append("<span class='icon_cross'></span>") ;
+		$(this).find(".fav_items").hide(); 
+		});
+			$(".trigger_parent .icon_cross").click(function(){
+				alert("hell");});

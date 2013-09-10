@@ -17,7 +17,7 @@
         <div class="edit_fav_block"> <img src="images/image.jpg" class="floatLeft profile_pic">
           <div class="floatLeft">
             <h2>Personal blog</h2>
-            <a href="" class="link">www.Example.com</a> <a href="" class="big_button grey">Edit Profile</a></div>
+            <a href="" class="link">www.Example.com</a> <a href="" class="big_button grey nobotmargin">Edit Profile</a></div>
           <div class="floatRight"> <img src="images/likebuttons.png">
             <div class="clear"></div>
             <ul class="socials">
@@ -43,7 +43,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -54,7 +54,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_cross"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -65,7 +65,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -76,7 +76,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -87,7 +87,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -113,7 +113,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -124,7 +124,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_cross"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -135,7 +135,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -146,7 +146,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>
@@ -157,7 +157,7 @@
                 <div class="grid_box">
                   <div class="grid_image">
                     <div class="grid_image_overlay"> 
-                      <div class="select_favourite"> <span class="heart_block"><a class="icon_heart"></a></span></div>
+                      <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a></span></div>
                     </div>
                     <img src="images/11.jpg"></div>
                   <h4>The Product title Knit Mittens</h4>

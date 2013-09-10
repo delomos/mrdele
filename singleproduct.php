@@ -33,11 +33,11 @@
         <strong>by <a href="">GAMA-GO</a></strong> <big class="price_tag">$15</big>
         <div class="input_group">
           <label>Size</label>
-          <div class="custom_dropdown">35</div>
+          <span class="custom-dropdown"><select class="custom-dropdown__select"><option>35</option><option>36</option><option>37</option></select></span>
         </div>
         <div class="input_group">
           <label>Quantity</label>
-          <div class="custom_dropdown">1</div>
+           <span class="custom-dropdown"><select class="custom-dropdown__select"><option>1</option><option>2</option><option>3</option></select></span>
         </div>
         <a class="big_button icon_reel sky_blue margin-bot-thirty" href="">Customize</a> <a class="big_button red icon_cart" href="">Add to Cart</a>
         <div class="add_fav">

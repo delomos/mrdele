@@ -80,7 +80,13 @@
       <div class="clearfix contact_info">
         <div class="input_group_wrap address_select margin-bot-twenty">
           <div class="input_group">
-            <div class="custom_dropdown">-Select Address-</div>
+             <span class="custom-dropdown">   <select class="custom-dropdown__select">
+            <option>-Select Address-</option>
+            <option>Some option</option>
+            <option>PSome option</option>
+            <option>Some option</option>
+            <option>Some option</option>
+          </select></span>
           </div>
         </div>
         <div class="input_group">
@@ -96,7 +102,13 @@
           <input type="text" placeholder="-Address 2-">
           <span class="success error_box"></span> </div>
         <div class="input_group">
-          <div class="custom_dropdown">-Country-</div>
+           <span class="custom-dropdown">   <select class="custom-dropdown__select">
+            <option>-Country-</option>
+            <option>Some option</option>
+            <option>PSome option</option>
+            <option>Some option</option>
+            <option>Some option</option>
+          </select></span>
           <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-City-">
@@ -105,14 +117,26 @@
           <input type="text" placeholder="-State/Province-">
           <span class="success error_box"></span> </div>
         <div class="input_group">
-          <div class="custom_dropdown">-Zip/Postal Code-</div>
+          <span class="custom-dropdown">   <select class="custom-dropdown__select">
+            <option>-Zip/Postal Code-</option>
+            <option>Some option</option>
+            <option>PSome option</option>
+            <option>Some option</option>
+            <option>Some option</option>
+          </select></span>
           <span class="success error_box"></span> </div>
         <div class="input_group">
           <input type="text" placeholder="-Telephone Number (10 digits only, no dashes)-">
           <span class="success error_box"></span> </div>
         <div class="input_group_wrap address_select margin-top-twenty">
           <div class="input_group">
-            <div class="custom_dropdown">-Address Name-</div>
+            <span class="custom-dropdown">   <select class="custom-dropdown__select">
+            <option>-Address Name-</option>
+            <option>Some option</option>
+            <option>PSome option</option>
+            <option>Some option</option>
+            <option>Some option</option>
+          </select></span>
           </div>
         </div>
         <div class="input_group_wrap button_group">

@@ -22,17 +22,17 @@
           <div class="dropdown">
             <ul>
               <li><a>Your Account</a></li>
-              <li><a>Edit your Account</a></li>
-              <li><a>Track order</a></li>
+              <li><a href="editaccount.php">Edit your Account</a></li>
+              <li><a href="ordertrack.php">Track order</a></li>
               <li><a>SignOut</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="cart icon_cart">Cart<span>0</span></div>
-      <span class="login_but">Login</span><span class="signup_but">Signup</span> 
+  <!--    <span class="login_but">Login</span><span class="signup_but">Signup</span>--> 
     </div>
-    <img src="images/logo.png" class="logo">
+  <a href="index.php"> <img src="images/logo.png" class="logo"></a>
     <div class="clear"></div>
     <ul class="responsive_menu">
       <li class="r_menu_head icon_menu">Menu

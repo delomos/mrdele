@@ -39,8 +39,8 @@
             
           </div>
           <div class="select_expiration input_group"> <strong>Expiration Date</strong>
-            <div class="custom_dropdown">01</div>
-            <div class="custom_dropdown">2013</div>
+            <div class="custom-dropdown">01</div>
+            <div class="custom-dropdown">2013</div>
           </div>
           <div class="input_group">
             <input type="text" placeholder="-Security code-">
@@ -61,11 +61,11 @@
           <div class="input_group">
             <input type="text" placeholder="-City-">
           </div>
-          <div class="custom_dropdown">-State/Province-</div>
+          <div class="custom-dropdown">-State/Province-</div>
           <div class="input_group">
             <input type="text" placeholder="-Zip/Postal Code-">
           </div>
-          <div class="custom_dropdown">-Country-</div>
+          <div class="custom-dropdown">-Country-</div>
           <div class="input_group">
             <input type="submit" value="Continue to payment" class="big_button red">
           </div>
