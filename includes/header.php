@@ -12,7 +12,17 @@
             <div class="fav_block"> <img src="images/11.jpg">
               <div class="fav_item"> <a href="" class="fav-type">T shirts</a> <span>334 items favourited</span></div>
             </div>
-            <div class="create_fav">Create a new List</div>
+            <div class="create_fav trigger_parent">
+                      <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
+                      <div class="trigger_child">
+                        <form>
+                          <input type="text" placeholder="Write category name ">
+                          <input type="button" value="Save" class="big_button red">
+                        </form>
+                      </div>
+                      <div class="fav_items"><a >List1</a><a>List2</a></div>
+                    </div>
+        
           </div>
         </div>
         <div class="dropdown_trigger user_ac">

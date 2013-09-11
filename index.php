@@ -35,7 +35,23 @@
     <div class="clear"></div>
   </div>
 </div>
-
+<div id="client_slider">
+  <div class="container">
+    <div class="clients_wrap">
+      <div class="floatLeft">
+        <label>Featured Brands</label>
+        <label>and designers</label>
+      </div>
+      <ul>
+        <div class="control"><a href="#;" class="floatLeft icon_smallarrow_left"> </a><a href="#;" class="floatRight icon_smallarrow_right"> </a></div>
+        <li><img src="images/fedex.png"></li>
+        <li><img src="images/cocacola.png"></li>
+        <li><img src="images/unilever.png"></li>
+        <li><img src="images/nike.png"></li>
+      </ul>
+    </div>
+  </div>
+</div>
 <div class="container grid_gallery_wrap featured_items">
   <label>Featured Items</label>
   <div class="clear"></div>
@@ -54,8 +70,35 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
+                      <div class="trigger_child">
+                        <form>
+                          <input type="text" placeholder="Write category name ">
+                          <input type="button" value="Save" class="big_button red">
+                        </form>
+                      </div>
+                      <div class="fav_items"><a >List1</a><a>List2</a></div>
+                    </div>
+                  </div>
+                </div>
+                </span> </div>
+            </div>
+            <img src="images/11.jpg"></div>
+          <h4>The Product title Knit Mittens</h4>
+          <span>By Armani</span>
+          <div class="clear"></div>
+          <label class="price">$34.90</label>
+          <strong>Was: 38:43</strong> </div>
+        <div class="grid_box">
+          <div class="grid_image">
+            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
+              <div class="select_favourite notloggedin"> <span class="heart_block"><a class="icon_emptyheart"></a>
+                <div class="dropdown_trigger your_fav"> <strong> <a class="drop_image icon_heart"></a>
+                  <label>Add to a favourites list</label><!--<em> Please <a href='#;'>sign in</a> or  <a href='#;'>sign up</a> in order to add to favourites</em>-->
+                  <span class="icon_down"></span> </strong>
+                  <div class="clear"></div>
+                  <div class="dropdown">
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -83,37 +126,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
-                      <div class="trigger_child">
-                        <form>
-                          <input type="text" placeholder="Write category name ">
-                          <input type="button" value="Save" class="big_button red">
-                        </form>
-                      </div>
-                      <div class="fav_items"><a >List1</a><a>List2</a></div>
-                    </div>
-                  </div>
-                </div>
-                </span> </div>
-            </div>
-            <img src="images/11.jpg"></div>
-          <h4>The Product title Knit Mittens</h4>
-          <span>By Armani</span>
-          <div class="clear"></div>
-          <label class="price">$34.90</label>
-          <strong>Was: 38:43</strong> </div>
-        <div class="grid_box">
-          <div class="grid_image">
-            <div class="grid_image_overlay"><a class="icon_share" href="singleproduct.php"></a>
-              <div class="select_favourite"> <span class="heart_block"><a class="icon_emptyheart"></a>
-                <div class="dropdown_trigger your_fav"> <strong> <a class="drop_image icon_heart"></a>
-                  <label>Add to a favourites list</label>
-                  <span class="icon_down"></span> </strong>
-                  <div class="clear"></div>
-                  <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -143,8 +156,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -172,8 +184,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -201,8 +212,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -244,8 +254,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -273,8 +282,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -302,8 +310,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -333,8 +340,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -362,8 +368,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -391,8 +396,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -433,8 +437,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -462,8 +465,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -491,8 +493,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -522,8 +523,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -551,8 +551,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">
@@ -580,8 +579,7 @@
                   <span class="icon_down"></span> </strong>
                   <div class="clear"></div>
                   <div class="dropdown">
-                    <div class="create_fav trigger_parent">
-                      <label class="icon_plus active">Create a new List</label>
+                    <div class="create_fav trigger_parent">   <label class="icon_plus">Create a new List<span class="icon_cross"></span></label>
                       <div class="trigger_child">
                         <form>
                           <input type="text" placeholder="Write category name ">

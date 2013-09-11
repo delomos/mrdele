@@ -130,18 +130,42 @@ function close_topbar(){
 $(this).parent(".select_favourite").addClass("favlist_expanded");
 
 });
-$(".dropdown_trigger.your_fav .dropdown").hide();
+$(".grid_box .dropdown_trigger.your_fav .dropdown").hide();
+$("#header .dropdown_trigger.your_fav .trigger_child").hide();
 $(".heart_block .create_fav.trigger_parent .trigger_child ").hide();
-$(".dropdown_trigger.your_fav >strong").click(function(){
-	$(this).parent().find(".dropdown").slideToggle();
+$(".dropdown_trigger.your_fav > strong").click(function(){
+	/*$(this).parent().find(".dropdown").slideToggle();*/
 	$(this).parents(".favlist_expanded").toggleClass("movedup");
 	});
 	
-	$(".create_fav.trigger_parent").click(function(){
-		$(this).parent().find(".trigger_child").show();
-		$(this).find("label").find('.icon_cross').remove();
-		$(this).find("label").append("<span class='icon_cross'></span>") ;
-		$(this).find(".fav_items").hide(); 
+	$(".create_fav.trigger_parent > label").click(function(){
+		$(this).parent().find(".trigger_child").fadeIn("fast");
+		$(this).addClass("active");
+	
+		$(this).parent().find(".fav_items").hide(); 
 		});
-			$(".trigger_parent .icon_cross").click(function(){
-				alert("hell");});
+	
+	$(".create_fav.trigger_parent label.icon_plus .icon_cross").click(function(e){
+	$(this).parents(".create_fav.trigger_parent").find(".trigger_child").fadeOut("fast");  e.stopPropagation(); 
+	$(this).parents(".create_fav.trigger_parent").find(".fav_items").show("fast"); 
+	$(this).parent("label.icon_plus").removeClass("active");
+	
+		});
+		$(".dropdown_trigger.your_fav > strong").click(function(){
+	$(this).parent().find(".dropdown").slideToggle();
+	$(this).parent(".favlist_expanded").toggleClass("movedup");
+	});
+	
+	
+	
+
+  
+  $(document).ready(function(){
+  $( '.grid_box .select_favourite' ).each(function() { 
+     if($(this).hasClass('notloggedin')){
+    $(this).find("strong").html("<a class='drop_image icon_heart'></a><em> Please <a href='#;'>sign in</a> or  <a href='#;'>sign up</a> in order to add to favourites</em>");
+	
+      }
+  });
+});
+  
