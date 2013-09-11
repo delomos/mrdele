@@ -554,6 +554,8 @@ background:(#0ab6de-#111) !important;
 &:before {
 background:(#0ab6de-#111) !important;
 }
+&:hover{
+	background:#27ACCD}
 }
 .red.big_button:before {
  background:(#BD494B-#111) !important;
@@ -1466,12 +1468,16 @@ color:@grey
 .grid_gallery_wrap {
 	padding: 25px 10px
 }
+.container.grid_gallery_wrap.featured_items,.container.grid_gallery_wrap.recently_home{
+	padding-bottom:45px !important;}
 .grid_gallery_wrap label {
 	padding: 10px 14px;
-	float: left;
+	
 	color: #fff;
 	font-size: 19px;
-	display: inline-block;
+	display: block;
+	margin:0 auto;
+	text-align:center;
 	margin-bottom: 25px;
 	background: #a64042;
 }
@@ -2293,6 +2299,15 @@ img {
 	margin-bottom: 25px;
 	background: #a64042;
 }
+.container.grid_gallery_wrap.recently_home > label,.container.grid_gallery_wrap.trending_items > label{
+display:block;
+	margin:0 auto;
+	float:none;
+	margin-top:-47px;
+	margin-bottom:25px;
+	width:auto;
+	max-width:226px;}
+	
 form.create_account {
 	margin: 20px 0;
 	width: 50%;
@@ -2894,7 +2909,7 @@ big {
 height:100%;
  z-index:11;
  background:url(../images/shade.png) no-repeat center;
- right:0;
+ right:-2px;
 top:0;
 }
 .grid_gallery {
@@ -3207,6 +3222,7 @@ label.section_label {
 	padding: 35px 10px;
 	overflow: hidden;
 }
+
 .featured_items .grid_gallery .ddzSliderNav, .recently_home .grid_gallery .ddzSliderNav, .trending_items .grid_gallery .ddzSliderNav {
 	width: 88%;
 	left: 2%;

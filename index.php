@@ -35,7 +35,7 @@
     <div class="clear"></div>
   </div>
 </div>
-<div id="client_slider">
+<!--<div id="client_slider">
   <div class="container">
     <div class="clients_wrap">
       <div class="floatLeft">
@@ -51,7 +51,7 @@
       </ul>
     </div>
   </div>
-</div>
+</div>-->
 <div class="container grid_gallery_wrap featured_items">
   <label>Featured Items</label>
   <div class="clear"></div>
