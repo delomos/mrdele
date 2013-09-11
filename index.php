@@ -35,23 +35,7 @@
     <div class="clear"></div>
   </div>
 </div>
-<div id="client_slider">
-  <div class="container">
-    <div class="clients_wrap">
-      <div class="floatLeft">
-        <label>Featured Brands</label>
-        <label>and designers</label>
-      </div>
-      <ul>
-        <div class="control"><a href="#;" class="floatLeft icon_smallarrow_left"> </a><a href="#;" class="floatRight icon_smallarrow_right"> </a></div>
-        <li><img src="images/fedex.png"></li>
-        <li><img src="images/cocacola.png"></li>
-        <li><img src="images/unilever.png"></li>
-        <li><img src="images/nike.png"></li>
-      </ul>
-    </div>
-  </div>
-</div>
+
 <div class="container grid_gallery_wrap featured_items">
   <label>Featured Items</label>
   <div class="clear"></div>
