@@ -1,0 +1,56 @@
+/*-------------------------------------------------------------------------
+@NAVIGATIONS
+-------------------------------------------------------------------------*/
+#navigation_search {
+	padding: 10px 0;
+ #nav {
+ float:left;
+list-style:none;
+ li {
+ float:left;
+ margin:10px 0;
+ a {
+ display:inline-block;
+ padding:2px 1.8em;
+ text-transform:uppercase;
+ border-right:1px dotted @grey;
+ font-size:1.2em;
+ color:@black;
+ &:hover {
+ background:@lgrey;
+ text-decoration:none;
+}
+}
+}
+}
+form {
+	float: right;
+	position: relative;
+ input[type="text"] {
+ width:280px;
+}
+a.icon_search {
+	position: absolute;
+	right: 0;
+	height: 38px;
+ box-shadow:0px -1px 0px @grey inset;
+	width: 40px;
+ background:@lgrey;
+ color:@white;
+	display: block;
+	top: 0;
+	text-decoration: none;
+	cursor: pointer;
+ &:hover {
+ background:@grey;
+box-shadow:0px -1px 0px @black inset;
+}
+}
+a.icon_search:before {
+	position: absolute;
+	top: 5px;
+	font-size: 28px;
+	left: 5px;
+}
+}
+}

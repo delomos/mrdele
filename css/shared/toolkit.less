@@ -1,0 +1,248 @@
+/*-------------------------------------------------------------------------
+@TOOLKIT
+-------------------------------------------------------------------------*/
+.floatNone {
+  float: none
+}
+.floatLeft {
+  float: left
+}
+.floatRight {
+  float: right
+}
+.clearLeft {
+  clear: left
+}
+.clearRight {
+  clear: right
+}
+.clearBoth {
+  clear: both
+}
+.noBg {
+  background: none !important
+}
+.noBgColor {
+  background-color: inherit !important
+}
+.noMargin {
+  margin: 0 !important
+}
+.nobotmargin {
+  margin-bottom: 0 !important
+}
+.noSide {
+  margin-right: 0 !important;
+}
+.noPadding {
+  padding: 0 !important
+}
+.noBorder {
+  border: 0 !important
+}
+.margin-right-ten {
+  margin-right: 10px
+}
+.margin-bot-ten {
+  margin-bottom: 10px
+}
+.margin-bot-twenty {
+  margin-bottom: 20px
+}
+.margin-bot-thirty {
+  margin-bottom: 30px
+}
+.margin-top-twenty {
+  margin-top: 20px
+}
+.show {
+  opacity: 1 !important;
+  visibility: visible !important
+}
+.hide {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+.link {
+  text-decoration: underline
+}
+.hideText {
+  display: block;
+  text-indent: -9999px
+}
+.Textcenter {
+  text-align: center
+}
+.bold {
+  font-weight: bold
+}
+.nounderline {
+  text-decoration: none
+}
+.underline {
+  text-decoration: underline
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+.centered {
+  margin: 0 auto
+}
+.overflow-hide {
+  overflow: hidden
+}
+.clear {
+  clear: both
+}
+ .rounded-corners (@radius: 5px 5px 5px 5px) {
+ -webkit-border-radius: @radius;
+ -moz-border-radius: @radius;
+ -ms-border-radius: @radius;
+ -o-border-radius: @radius;
+ border-radius: @radius;
+}
+.bshadow(@bshadow) {
+ -webkit-box-shadow: @bshadow;
+ -moz-box-shadow: @bshadow;
+ -ms-box-shadow: @bshadow;
+ -o-box-shadow: @bshadow;
+ box-shadow: @bshadow;
+}
+ .transition(@arguments) {
+ -webkit-transition: @arguments;
+ -moz-transition: @arguments;
+ -o-transition: @arguments;
+ transition: @arguments;
+}
+.columns.first {
+  margin-left: 0
+}
+.columns.last {
+  margin-right: 0
+}
+.columns {
+  float: left;
+  margin: 0 1.3%;
+}
+.column_25 {
+  width: 23%
+}
+.column_20 {
+  width: 18%
+}
+.column_30 {
+  width: 28%
+}
+.column_50 {
+  width: 48%
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@width-screen:62.5em;
+
+
+/*-------------------------------------------------------------------------
+@LAYOUT
+-------------------------------------------------------------------------*/
+body {
+  background: #EFEFEB;
+  font-family: Arial, Helvetica, sans-serif
+}
+#topbar {
+ background:@orange;
+  padding: 8px 0;
+ border-top:1px solid @white;
+ label {
+ background:#C85236;
+ float:left;
+ display:inline-block;
+ .rounded-corners(4px);
+ padding:5px 0px;
+ font-size:10px;
+.bold;
+.Textcenter;
+ text-transform:uppercase;
+ color:@white;
+ width:110px
+}
+}
+#header {
+ background:@white;
+  height: 110px;
+  padding: 15px 0;
+ border-bottom:4px solid @lgrey;
+}
+#topbar {
+.container {
+ max-width:97% !important
+}
+}
+#right_part_header {
+  float: right;
+  margin: 10px 0;
+}
+.logo {
+  float: left;
+  margin: 12px 0;
+  height: 28px;
+}
+.container {
+ max-width: @width-screen;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.container:after {
+  display: block;
+  clear: both;
+  content: ""
+}
+.border-dashed-top {
+  border-top: 1px dashed #ccc
+}
+.border-dashed-bottom {
+  border-bottom: 1px dashed #ccc
+}
+.border-dashed-right {
+  border-right: 1px dashed #ccc
+}
+#content {
+  padding-top: 20px;
+ .border-dashed-top;
+ h1 {
+ font-size:15px;
+ font-weight:normal;
+ margin:0;
+}
+}
+#content .static_page {
+  background: #fff;
+  padding: 25px 35px;
+.bshadow(0 2px 0.5px #777);
+ h1 {
+ font-size:22px;
+ color:#666
+}
+h4 {
+ .font_twelve;
+  color: #666
+}
+}
+#content form.edit_account_info {
+  margin-top: 0 !important;
+  background: #fff;
+.basic_info {
+ padding:20px;
+}
+}

@@ -1,0 +1,94 @@
+/*-------------------------------------------------------------------------
+@LAYOUT
+-------------------------------------------------------------------------*/
+body {
+  background: #EFEFEB;
+  font-family: Arial, Helvetica, sans-serif
+}
+#topbar {
+  background:@orange;
+  padding: 8px 0;
+  border-top:1px solid @white;
+  label {
+    background:#C85236;
+    float:left;
+    display:inline-block;
+    .rounded-corners(4px);
+    padding:5px 0px;
+    font-size:10px;
+    .bold;
+    .Textcenter;
+    text-transform:uppercase;
+    color:@white;
+    width:110px
+  }
+}
+#header {
+  background:@white;
+  height: 110px;
+  padding: 15px 0;
+  border-bottom:4px solid @lgrey;
+}
+#topbar {
+  .container {
+    max-width:97% !important
+  }
+}
+#right_part_header {
+  float: right;
+  margin: 10px 0;
+}
+.logo {
+  float: left;
+  margin: 12px 0;
+  height: 28px;
+}
+.container {
+  max-width: @width-screen;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.container:after {
+  display: block;
+  clear: both;
+  content: ""
+}
+.border-dashed-top {
+  border-top: 1px dashed #ccc
+}
+.border-dashed-bottom {
+  border-bottom: 1px dashed #ccc
+}
+.border-dashed-right {
+  border-right: 1px dashed #ccc
+}
+#content {
+  padding-top: 20px;
+  .border-dashed-top;
+  h1 {
+    font-size:15px;
+    font-weight:normal;
+    margin:0;
+  }
+}
+#content .static_page {
+  background: #fff;
+  padding: 25px 35px;
+  .bshadow(0 2px 0.5px #777);
+  h1 {
+    font-size:22px;
+    color:#666
+  }
+  h4 {
+    .font_twelve;
+    color: #666
+  }
+}
+#content form.edit_account_info {
+  margin-top: 0 !important;
+  background: #fff;
+  .basic_info {
+    padding:20px;
+  }
+}

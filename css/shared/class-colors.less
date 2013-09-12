@@ -1,0 +1,139 @@
+/*-------------------------------------------------------------------------
+@GLOBAL CLASSES/COLORS   
+
+== blue :#
+-------------------------------------------------------------------------*/
+.clear {
+	clear: both
+}
+.button {
+	background: #0AB6DE;
+ .bshadow(0px 2px 0.5px #333);
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 1px 0.5px #333;
+	height: 37px;
+	padding: 0 15px;
+	line-height: 38px;
+ .font_forteen;
+	position: relative;
+ &:hover {
+ text-decoration:none;
+ color:#fff;
+ background:#07809C
+}
+ &:active {
+ top:1px;
+ box-shadow:none
+}
+ &.grey {
+padding:10px 0;
+background:#c6c6c6;
+ color:#fff;
+ display:block;
+ text-shadow:0px 1px 0px #999;
+ width:80px;
+}
+}
+.big_button {
+	width: 100%;
+	padding: 10px 0;
+	box-shadow: 0px 2px 0.2px #333;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 1px 0.5px #333;
+ .transition(background 0.5s ease 0s);
+	cursor: pointer;
+	position: relative;
+	text-decoration: none !important;
+ &.red {
+ background:#BD494B;
+ &:hover {
+background:#9C2F33;
+}
+ &:active {
+background:#BD494B
+}
+}
+ &.grey {
+ background:#c6c6c6;
+ color:#fff !important;
+ text-shadow:0px 1px 0px #999;
+ .bshadow(0 2px 0.2px #777);
+ &:hover {
+ background:#878787
+}
+}
+ &.dgrey {
+ background:#575756;
+.bshadow(0 2px 0px #111);
+ &:hover {
+ background:#474747
+}
+}
+ &:active {
+ top:2px;
+ box-shadow:none;
+}
+ &:hover {
+ color:#fff
+}
+&.fb_blue {
+ background-color:#5771A9;
+ &:before {
+background:(#5771A9-#111) !important;
+ border-right:1px solid #999
+}
+}
+ &.tw_blue {
+ background-color:#3f99bf;
+ &:before {
+background:(#3f99bf-#111) !important;
+border-right:1px solid #999
+}
+}
+}
+ &.reel_blue:before {
+background:(#0ab6de-#111) !important;
+}
+.sky_blue {
+	background: #0ab6de;
+&:before {
+background:(#0ab6de-#111) !important;
+}
+&:hover{
+	background:#27ACCD}
+}
+.red.big_button:before {
+ background:(#BD494B-#111) !important;
+}
+.big_button[class*=icon_] {
+	padding-left: 50px;
+	padding-right: 20px;
+	position: relative;
+ .font_forteen;
+	text-decoration: none;
+ &:before {
+ position:absolute;
+ left:0;
+width:35px;
+ height:100%;
+ text-align:center;
+ background:#BABABA;
+ top:0;
+ line-height:35px;
+}
+}
+.show_more_button {
+	width: 100%;
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+	background: #e2e2d9;
+ .font_twelve;
+	color: #666;
+ border:1px solid @grey;
+ &:hover {
+ background:#d4d4cf
+}
+}
